@@ -16,10 +16,13 @@ __Step 2:__ Install Required Libraries
   pip install requests Flask
   ``` 
 
-Step 3: Run the Payment Callback Web Server
+__Step 3:__ Run the Payment Callback Web Server
+``` 
 python payment_callback.py
+``` 
 
-The above code sets up a Flask server to handle incoming payment callbacks from Coinbase Commerce.
+- The above code sets up a Flask server to handle incoming payment callbacks from Coinbase Commerce.
+  
 
 To summarize, the provided code demonstrates Cryptocurrency Payments Integration using Coinbase Commerce as the payment gateway. The coinbase_integration.py script handles initiating and monitoring transactions, while the payment_callback.py script handles payment callbacks and updates the payment status on your platform.
 
