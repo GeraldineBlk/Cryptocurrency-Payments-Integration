@@ -17,7 +17,7 @@ __Step 2:__ Install Required Libraries:
   pip install requests Flask
   ``` 
 
-__Step 3:__ Run the Payment Callback Web Server
+__Step 3:__ Run the Payment Callback Web Server:
 ``` 
 python payment_callback.py
 ``` 
